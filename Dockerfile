@@ -1,4 +1,4 @@
-FROM node:20.12.2-slim
+FROM node:20.19.3-slim
 
 RUN npm install -g npm@9.1.3
 RUN apt install libc-dev-bin@2.36-9+deb12u7
